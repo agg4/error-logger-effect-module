@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "projects": {
+    "app": "apps/app-1",
+    "app-e2e": "apps/app-e2e",
+    "error-handler-effect": "libs/error-handler-effect"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/error-handler-effect",
+  "sourceRoot": "libs/error-handler-effect/src",
+  "prefix": "playground",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/error-handler-effect"],
+      "options": {
+        "jestConfig": "libs/error-handler-effect/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/error-handler-effect/src/**/*.ts",
+          "libs/error-handler-effect/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
